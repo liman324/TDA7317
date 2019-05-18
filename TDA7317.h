@@ -4,7 +4,11 @@
 #ifndef TDA7317_H
 #define TDA7317_H
 
-#define TDA7317_address 0x86 // адрес 0b10000100
+
+//ADDR pin = open 0b10000110
+//ADDR pin = connected to ground 0b10000100
+//#define TDA7317_address 0x84 // адрес 0b10000100 
+#define TDA7317_address 0x86 // адрес 0b10000110
 
 
 #include <Arduino.h>
