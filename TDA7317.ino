@@ -9,7 +9,7 @@ void setup(){
 
 void loop(){}
 
-void audio()
+void audio(){
   tda.setVolume(35); // громкость 0...47
   /////////// номер полосы, дБ (-7...+7) //////////
   tda.setBand(0,0);  // 10000 Hz
